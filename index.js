@@ -15,9 +15,14 @@ function calcularRanking(vitorias, derrotas) {
 
            }
 
-          return { saldoVitorias: saldo, nivel: nivel };
+          return { saldoVitorias: saldo, nivel }
 
 }
 
-let vitorias = 40
-let derrotas = 50
+let vitorias = 25
+let derrotas = 51
+  
+   let resultado = calcularRanking( vitorias, derrotas);
+
+   console.log (`O Heroi tem um saldo de ${resultado.saldoVitorias} vitorias e está no de${resultado.nivel} `);
+
