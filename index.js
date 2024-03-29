@@ -1,0 +1,6 @@
+function calcularRanking(vitorias, derrotas){
+
+    
+}
+
+
